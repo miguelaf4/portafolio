@@ -35,7 +35,7 @@ function Banner() {
                 <div className="buttons-row">
                     
                     <Link smooth={true} duration={800} to="contact">
-                        <a className="btn btn-primary" href="#">Contacto</a>
+                        <a className="btn btn-primary" href="/">Contacto</a>
                     </Link>
                     <a className="btn" href="/curriculum">Ver Curriculum</a>
                 </div>

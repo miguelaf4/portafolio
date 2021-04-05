@@ -35,7 +35,7 @@ const Portafolio = () => {
                 </div>
             </div>
             <div class="btn-wrapper">
-                 <a href="https://github.com/miguelaf4" target="_blank" className="btn">Ver más</a>
+                 <a href="https://github.com/miguelaf4" target="_blank" rel="noreferrer" className="btn">Ver más</a>
             </div>
             
         </div>
