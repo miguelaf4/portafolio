@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import './Main.css'
+import Home from './components/Pages/Home';
+import Project1 from './components/Pages/Project1';
+import Project2 from './components/Pages/Project2';
+import CV from './components/Pages/Cv';
+import NotFound from './components/Pages/NotFound';
+import { Route, Switch } from 'react-router';
+import React from 'react';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Switch>
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/portafolio/indusa-lab" component={Project1}/>
+        <Route exact path="/portafolio/social-django" component={Project2}/>
+        <Route exact path="/curriculum" component={CV} />
+        <Route path="*" component={NotFound} />
+      </Switch>
+   
   );
 }
 

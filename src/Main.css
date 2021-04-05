@@ -1,0 +1,94 @@
+*, html {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+:root {
+    --primary: #0085FF;
+}
+
+@font-face {
+    font-family: "Helvetica-Roman";
+    src: url("./fonts/HelveticaNeueLTStdRoman.otf");
+}
+
+@font-face {
+    font-family: "Helvetica-Bold";
+    src: url("./fonts/HelveticaNeueLTStdBdEx.otf");
+}
+
+@font-face {
+    font-family: "Helvetica-Light";
+    src: url("./fonts/HelveticaNeueLTStdLt.otf");
+}
+
+body {
+    background-color: #0D0D0D;
+    color: #F1F1F1;
+    font-family: 'Helvetica-Roman';
+    line-height: 2.5rem;
+
+    height: 100%;
+}
+
+h1{
+    font-family: 'Helvetica-Bold';
+    font-size: 2rem;
+}
+
+a {
+    color: #F1F1F1;
+    text-decoration: none;
+}
+
+
+
+/* Utility Classes */
+
+.muted {
+    font-family: 'Helvetica-Light';
+    color: #7c7c7c;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid #F1F1F1;
+    padding: 1rem 4rem 1rem;
+    margin: 0 .5rem 0;
+    text-align: center;
+    min-width: 285px;
+    z-index: 100;
+
+
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #0D0D0D;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5)  ; 
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
+}
+
+.btn-primary:hover {
+    background: #005aad;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5)  ; 
+    border: 2px solid #005aad;
+    color: rgb(223, 223, 223);
+}
+
+@media only screen and (max-width: 800px) {
+    *, html{
+        font-size: 14px;
+    }
+}
