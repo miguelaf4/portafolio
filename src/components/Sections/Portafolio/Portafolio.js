@@ -17,19 +17,19 @@ const Portafolio = () => {
             
                 <div className="project">
                     <a href="/">
-                        <h1>LINKHUB USING DJANGO</h1>
+                        <h1>SOCIAL MEDIA SITE w/ DJANGO</h1>
                     </a>
                 </div>
                 
                 <div className="project">
-                    <a href="/">
+                    <a href="/portafolio/konter-website">
                         <h1>KONTER LANDING PAGE</h1>
                     </a>
                 </div>
             
             
                 <div className="project">
-                    <a href="/">
+                    <a href="/portafolio/cess-redesign">
                         <h1>CESS REDESIGN</h1>
                     </a>
                 </div>

@@ -1,8 +1,9 @@
 .container-project {
     margin-top: 5%;
-    height: 100vh;
+    height: 100%;
     padding: 0 3rem 0;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .head-separator {
@@ -43,8 +44,7 @@
     line-height: 1.5;
 }
 
-/* 
-Curriculum style */
+/*Curriculum style */
 
 .btn-cv {
     border: 2px solid white;
@@ -67,6 +67,7 @@ Curriculum style */
 }
 .container-cv img{
     margin-top: 1rem;
+    width: 100%;
 }
 
 /* 404 style */
@@ -77,4 +78,10 @@ Curriculum style */
     align-items: center;
     flex-direction: column;
     padding-top: 10%;
+}
+
+.gallery {
+    margin-top: 1rem;
+    height: 50%;
+    width: 50%;
 }
