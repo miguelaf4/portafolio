@@ -16,7 +16,7 @@ const Portafolio = () => {
             
             
                 <div className="project">
-                    <a href="/">
+                    <a href="/portafolio/socialmedia-django">
                         <h1>SOCIAL MEDIA SITE w/ DJANGO</h1>
                     </a>
                 </div>
